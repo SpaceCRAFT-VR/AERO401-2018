@@ -2,7 +2,7 @@
 #include "stdafx.h"
 #include "Car.h"
 
-
+// Constructor
 Car::Car(std::string	in_make,
 		 std::string	in_model,
 		 int			in_year,
@@ -24,16 +24,17 @@ Car::Car(std::string	in_make,
 	return;
 }
 
-
+// Destructor
 Car::~Car()
 {
 }
 
-
+// Defining the function inside a class
 double Car::Fuel_Mileage() {
 	return miles_travelled / fuel_used;
 }
 
+// Using a member (inside a class) function to alter the class
 void Car::Set_Color(std::string input) {
 	color = input;
 	return;

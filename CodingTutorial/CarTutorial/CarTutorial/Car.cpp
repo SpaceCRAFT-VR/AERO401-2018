@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include "Car.h"
 
+
 // Constructor
 Car::Car(std::string	in_make,
 		 std::string	in_model,
